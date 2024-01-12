@@ -1,0 +1,122 @@
+/* body{
+    background-image: url(../IMAGE/chicken-2451482_1280.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 20px;
+ 
+}
+
+section{
+    
+    opacity: 1;
+}
+h3{
+    font-size: 100;
+    text-align: center;
+    background-color:rgb(172, 171, 171);
+}
+a{
+    color: white;
+    
+    
+}
+p{
+    color: rgb(15, 12, 12);
+    font-size: 20PX;
+    
+}
+header{
+    font-size: 15px;
+} */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../IMAGE/chicken-2451482_1280.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 20px;
+  font-size: 16px;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  padding: 0, 8%;
+  position: relative;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(0, 0, 0);
+
+  flex-wrap: wrap;
+  padding: 5px 0;
+
+
+}
+nav ul {
+    
+ background-color: rgba(18, 17, 17, 0.311);
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding-top: 1%;
+  padding-right: 40px;
+  list-style: none;
+  cursor: pointer;
+  height: 40px;
+}
+ul li {
+    margin-right: 50px;
+}
+ul li a{
+    position: relative;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+   color: rgb(255, 255, 255);
+}
+ul li a::after{
+    content: "";
+    background: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 3px;
+    transform: translate(-70%, -5px);
+    transition: 0.3s;
+}
+ul li a:hover::after{
+    width: 38%;
+}
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+            ul li {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+    }
+
+.entete p{
+    font-size: 38px;
+    padding: 20px;
+    text-align: center;
+    color: #fafafaf9;
+    text-transform: uppercase;
+    background-color: #f63767b9;
+}

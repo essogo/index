@@ -1,0 +1,98 @@
+.entete {
+    /* display: grid; */
+    /* border: 1px solid black; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    position: relative;
+    margin: 2%;
+    grid-auto-rows: auto;
+    grid-column-gap: 1em;
+    background-image: url(../IMAGE/chicken-2451482_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    border-radius: 10px;
+    height: 20vh;
+  }
+  
+  .title {
+    padding-top: 10px;
+    position: absolute;
+    top: 25%;
+  
+    right: 50%;
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+    /* border: 1px solid black; */
+  }
+  .intro {
+    /* position: absolute; */
+    padding: 10px;
+    font-size: 30px;
+    font-style: italic;
+    margin: 20px;
+    background-color: rgba(250, 235, 215, 0.493);
+    border-radius: 3px;
+    /* right: 50%;
+      */
+    /* border: 1px solid black; */
+  }
+
+div.menu{
+  font-style: italic;
+  display: grid;
+  margin-left: 9px;
+    margin-right: 9px;
+    
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: 1px solid black;
+    grid-auto-rows: auto;
+    grid-column-gap: 1em;
+    /* height: 400%; */
+    background-color: rgba(240, 248, 255, 0.482);
+    
+}
+div.menu h1{
+    color: rgb(213, 30, 30);
+    position: relative;
+
+}
+div.menu p{
+     
+    font-size: 30px;
+    margin: 15px;
+  
+    color: black;
+    font-weight: 900;
+}
+
+
+@media (max-width: 768px) {
+  
+}
+.menu {
+  grid-template-columns: repeat(1, 1fr); /* Changer la disposition en une colonne sur les petits écrans */
+}
+.ingredient p, .ingredient li{
+  padding: 5px;
+  font-size: 10px;
+  background-color: rgba(222, 218, 218, 0.591);
+  border-radius: 50%;
+  text-align: center;
+}
+.ingredient li{
+  border: solid black 2px;
+  font-size: 18px;
+  border-radius: 0;
+  text-align: left;
+  font-weight: bolder;
+}
+.img-preparation img{
+  position: absolute;
+  padding-right: 100px;
+  height: 300px;
+  width: 300px;
+}
+.box3{
+  margin-top: -103%;
+}

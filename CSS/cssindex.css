@@ -1,0 +1,175 @@
+/* 
+h2{
+    text-align: center;
+    color: white;
+}
+img.image{
+    width: 20px;
+
+}
+h2{
+    background-color:gray;
+    text-align: center;
+    font-size: 100;
+}  
+table{
+    background-color: #80808094;
+    
+    opacity: 1;
+
+    }
+    section{
+        background-color: rgba(56, 59, 61, 0.192);
+    }
+footer{
+    background-image: url(IMAGE/vague-h100.png);
+}  
+a{
+    color: white;
+    font-size: 20PX;
+}
+.poulet{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+tr,th,td{
+    border: 1PX solid black;
+} */
+
+/* img.yassa{
+    position: relative;
+    left: 50%;
+
+} */
+.entete {
+  /* display: grid; */
+  /* border: 1px solid black; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  position: relative;
+  margin: 2%;
+  grid-auto-rows: auto;
+  grid-column-gap: 1em;
+  background-image: url(../IMAGE/chicken-2451482_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-radius: 10px;
+  height: 20vh;
+}
+
+.title {
+  padding-top: 10px;
+  position: absolute;
+  top: 25%;
+
+  right: 35%;
+  color: black;
+  font-weight: 800;
+  font-size: 30px;
+  /* border: 1px solid black; */
+}
+.intro {
+  /* position: absolute; */
+  padding: 10px;
+  font-size: 30px;
+  font-style: italic;
+  margin: 20px;
+  background-color: rgba(250, 235, 215, 0.493);
+  border-radius: 3px;
+  /* right: 50%;
+    */
+  /* border: 1px solid black; */
+}
+
+.grille{
+    margin-left: 9px;
+    margin-right: 9px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: 1px solid black;
+    grid-auto-rows: auto;
+    grid-column-gap: 1em;
+    height: 100%;
+}
+.box1 img{
+    border: 1px solid black;
+    /* background-image: url(../IMAGE/poulets\ \ yassa\ menu.webp);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    /* background-attachment: fixed; */
+    /* background-position: center top; */
+    height: 60vh;
+    width: 100%;
+    
+}
+.box1 p{
+   background-color: rgba(240, 255, 255, 0.505);
+   padding: 40px;
+   border-radius: 4px;
+   height: 160vh;
+   color: black;
+   font-style: italic;
+   font-size: 29px;
+}
+.box2 img{
+    border: 1px solid black;
+    /* background-image: url(../IMAGE/poulets\ \ yassa\ menu.webp);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    /* background-attachment: fixed; */
+    /* background-position: center top; */
+    height: 60vh;
+    width: 100%;
+}
+.box2 p{
+    background-color: rgba(240, 255, 255, 0.505);
+    padding: 40px;
+    border-radius: 4px;
+
+    height: 106vh;
+    color: black;
+    font-style: italic;
+    height: 160vh;
+    font-size: 29px;
+ }
+.box3 img{
+    border: 1px solid black;
+    /* background-image: url(../IMAGE/poulets\ \ yassa\ menu.webp);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    /* background-attachment: fixed; */
+    /* background-position: center top; */
+    height: 60vh;
+    width: 100%;
+}
+.box3 p{
+    background-color: rgba(240, 255, 255, 0.505);
+    padding: 40px;
+    border-radius: 4px;
+    color: black;
+    font-style: italic;
+    height: 160vh;
+    font-size: 29px;
+ }
+ .box3 h1{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+ }
+ .box2 h1{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+ }
+ .box1 h1{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+ }
+@media (max-width: 864px) {
+    /* ul li {
+        padding: 12px;
+        border: solid red 1px;
+    } */
+}
+.box1 img, .box2 img, .box3 img {
+    width: 100%; /* Pour que les images soient de largeur maximale sur tous les écrans */
+    height: auto; /* Pour maintenir le rapport hauteur/largeur */
+}
